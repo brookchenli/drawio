@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-20T06:20:01.182Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="8osnY-EiXxWdZAbqS4NR" version="20.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-20T06:26:55.798Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="gmC8ntOjCu8e9NYwX3mx" version="20.0.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1573" dy="824" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -77,7 +77,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="knNCtviT_BFthdPeHecz-49" value="BRARContext" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="30" width="200" height="320" as="geometry" />
+          <mxGeometry x="30" width="200" height="346" as="geometry" />
         </mxCell>
         <mxCell id="knNCtviT_BFthdPeHecz-53" value="action:BRARConextActionProtocol" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="knNCtviT_BFthdPeHecz-49">
           <mxGeometry y="26" width="200" height="26" as="geometry" />
@@ -109,11 +109,14 @@
         <mxCell id="knNCtviT_BFthdPeHecz-59" value="- setBeautyParameters;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="knNCtviT_BFthdPeHecz-49">
           <mxGeometry y="242" width="200" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="knNCtviT_BFthdPeHecz-60" value="- switchToRunningAction" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="knNCtviT_BFthdPeHecz-49">
+        <mxCell id="knNCtviT_BFthdPeHecz-66" value="- hasAREnable等" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="knNCtviT_BFthdPeHecz-49">
           <mxGeometry y="268" width="200" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="knNCtviT_BFthdPeHecz-61" value="- switchToPendingAction" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="knNCtviT_BFthdPeHecz-49">
+        <mxCell id="knNCtviT_BFthdPeHecz-60" value="- switchToRunningAction" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="knNCtviT_BFthdPeHecz-49">
           <mxGeometry y="294" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="knNCtviT_BFthdPeHecz-61" value="- switchToPendingAction" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="knNCtviT_BFthdPeHecz-49">
+          <mxGeometry y="320" width="200" height="26" as="geometry" />
         </mxCell>
         <mxCell id="knNCtviT_BFthdPeHecz-62" value="BRARProvder" style="html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="430" y="485" width="200" height="50" as="geometry" />
