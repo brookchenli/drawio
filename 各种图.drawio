@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-21T08:45:54.748Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="oToh1xW1EAmqh66fhMk9" version="20.0.1" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-06-21T08:51:44.065Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="_nkvCZgtwTwVEA76ElL2" version="20.0.1" type="github" pages="4">
   <diagram id="ayQD0WuWZAh9RELpzeV6" name="BRCallARContext">
     <mxGraphModel dx="1258" dy="576" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -363,7 +363,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="vvrG8eHUTgODqvnuDB3d-1" value="Window" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="260" y="40" width="180" height="138" as="geometry" />
+          <mxGeometry x="240" y="40" width="180" height="138" as="geometry" />
         </mxCell>
         <mxCell id="vvrG8eHUTgODqvnuDB3d-2" value="callSession:RCSCallSession" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="vvrG8eHUTgODqvnuDB3d-1">
           <mxGeometry y="26" width="180" height="26" as="geometry" />
@@ -381,7 +381,7 @@
           <mxGeometry y="130" width="180" height="8" as="geometry" />
         </mxCell>
         <mxCell id="vvrG8eHUTgODqvnuDB3d-6" value="BRARProvider" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="500" y="40" width="220" height="190" as="geometry" />
+          <mxGeometry x="490" y="30" width="220" height="190" as="geometry" />
         </mxCell>
         <mxCell id="vvrG8eHUTgODqvnuDB3d-36" value="arContext: BRARCallContext" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="vvrG8eHUTgODqvnuDB3d-6">
           <mxGeometry y="26" width="220" height="26" as="geometry" />
@@ -408,7 +408,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="vvrG8eHUTgODqvnuDB3d-23" value="BRWindowContainer" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="40" y="40" width="180" height="86" as="geometry" />
+          <mxGeometry x="20" y="40" width="180" height="86" as="geometry" />
         </mxCell>
         <mxCell id="vvrG8eHUTgODqvnuDB3d-24" value="windows" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="vvrG8eHUTgODqvnuDB3d-23">
           <mxGeometry y="26" width="180" height="26" as="geometry" />
@@ -423,7 +423,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="vvrG8eHUTgODqvnuDB3d-30" value="BRARCallContext" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="500" y="310" width="220" height="140" as="geometry" />
+          <mxGeometry x="490" y="270" width="220" height="140" as="geometry" />
         </mxCell>
         <mxCell id="vvrG8eHUTgODqvnuDB3d-38" value="gestureItems" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="vvrG8eHUTgODqvnuDB3d-30">
           <mxGeometry y="26" width="220" height="26" as="geometry" />
